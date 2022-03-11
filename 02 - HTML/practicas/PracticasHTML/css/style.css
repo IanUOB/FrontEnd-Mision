@@ -1,0 +1,213 @@
+
+    
+/* Estilo de header */
+
+.main {
+    background-color: rgb(235, 96, 193);   
+    /*border-radius: 10px;*/
+    border-color: rgb(24, 3, 44) 2px; 
+    border-style:solid;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+#menu{
+
+    background-color: black;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a{
+    font-family: 'Hubballi', cursive;
+}
+
+ul li a:hover{
+    background-color: rgb(128, 7, 241);
+}
+
+    
+.sabor, .decoracion, .contacto{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 150px;
+    font-family: 'Hubballi', cursive;
+    justify-items: center;
+}
+
+.icono2 {
+    float: right;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+
+
+/*Posicion del icono*/
+.icono{
+    
+    margin-top: 10px;
+    margin-left: 11px;
+
+}
+
+/*posicion y efecto del nombre*/
+header .name{
+    font-family: 'Pacifico', cursive;
+    height: 31px;
+    width: 210px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: absolute;
+    
+    left: 100px;
+    right: 100px;
+    top: 35px;
+
+}
+
+/*posicion y efecto de slogan*/
+header .slogan{
+    font-family: 'Hubballi', cursive;
+    
+    height: 14px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font: size 60px;
+    color: rgb(29, 1, 13);
+
+}
+
+
+/*Estilo de menu principal*/
+
+#imagen{
+
+   display: flexbox;
+
+}
+
+#imagen:hover{
+    width: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(245, 10, 155);
+}
+
+     
+/* Estilo de footer */
+
+footer {
+    background-color: rgb(8, 8, 8);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    /*border-radius: 10px;*/
+}
+
+/* Responsive layout */
+ @media (max-width: 600px) {
+}
+      
+
+
+
+div.gallery:hover {
+  
+  padding: 5px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-right: 10px;
+ 
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgb(10, 10, 10);
+  font-family: 'Hubballi', cursive;
+  background-color: rgb(235, 96, 193);
+  color: rgb(255, 254, 254);
+  
+}
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  padding-left: 60px;
+  padding-bottom: 50px;
+
+
+}
+
+
+table {
+  border-collapse: collapse; 
+  width: 100%;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-top-left-radius: 2px;
+  background-color:rgb(240, 151, 151) ;
+  
+  padding-left: 250px;
+
+}
+th{
+    background-color:rgb(235, 96, 193)
+}
+
+.decora{
+     font-family: 'Hubballi', cursive;
+    display: flexbox;
+    width:100%;
+    height: 60%;
+    background-color: rgb(240, 151, 151);
+    display: flexbox;
+    font-size: large;
+  
+}
+#contac{
+    border-color: black 2px;
+    padding-top: 5px;
+    font-family: 'Hubballi', cursive;
+    font-stretch: expanded;
+    background-color: rgb(240, 151, 151);
+    align-content: center;
+    padding-left: 40%;
+    color: rgb(3, 3, 3);
+ 
+}
+
+.con{
+    border-radius: 10px;
+}
+
