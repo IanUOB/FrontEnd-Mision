@@ -1,0 +1,314 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: aliceblue;
+    color: gray;
+    font-family: 'Fredoka', sans-serif;
+    
+    
+}
+
+h3{
+    color: rgb(31, 31, 243);
+    float: left;
+    margin: 30px auto;
+    padding-left: 40px;
+}
+
+a{
+    color: gray;
+}
+
+ul{
+    display:flex;
+    text-align: center; 
+    padding-left: 80px;
+    
+}   
+
+li{
+    margin: 30px auto;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+   list-style: none;
+}
+
+li.buster a{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+   
+}
+
+ul li.buster a:hover{
+background-color: rgb(57, 159, 243);
+
+}
+
+div{
+    float: left;
+    margin:20px;
+    padding: 20px;
+    
+}
+h1{
+    color: rgb(15, 15, 122);
+    
+}
+
+
+div img.Medico{
+    float: right;
+    margin: auto;
+    
+   
+}
+div label{
+    padding-left:  5px;
+    padding-top: 2px;
+    
+   
+}
+label{
+    padding-bottom: 2px;
+    padding-right: 10px;
+    border-radius: 5px;
+    
+    
+}
+div #tab1{
+    
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    width: 400px;
+    text-align: center;
+    width: 580px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    
+}
+
+td{
+    color:rgb(4, 4, 77);
+    text-align: center;
+    display: flexbox;
+}
+
+ input{
+    background-color: blue;
+    color: white;
+    padding:10px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+}
+
+div h2{
+    color:rgb(15, 15, 122);
+    margin-right: 500px;
+    
+}
+
+#shu{
+    
+    width: 100%;
+    height: 100%;
+
+}
+
+section div h4{
+    color:rgb(15, 15, 122);
+    
+}
+
+#conteiner{
+    margin: auto;
+    padding: auto;
+}
+
+#imagenvac img {
+    
+    float: left;
+    position: absolute;
+}
+
+#imagenvac h2 {
+    margin-right: auto;
+    height: 70px;
+    margin-left: 550px;
+   
+  
+}
+
+#imagenvac p{
+    margin-right: auto;
+    
+    height: 70px;
+    padding-left: 0px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    display: flex;
+   
+
+}
+
+#alcohol, #stress, #fud, #sleep, #good{
+    margin-right: auto;
+    height: 30px;
+    margin-left: 550px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#alcohol img, #stress img, #fud img, #sleep img, #good img{
+  left: 590px;
+}
+#fud{
+    
+    margin-top: 100px;
+
+}
+#alcohol label, #stress label, #fud label, #sleep label, #good label{
+    padding-left: 50px;
+}
+
+#stress p{
+   
+    height: 60px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#enfer{
+    
+    margin-right: 100%;
+    width: 100%;
+
+}
+
+#llamada, #chat, #video, #mensaje{
+    
+    
+    border: 5px;
+    border-radius: 2px;
+    text-align: center;
+    padding-left: 10px;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    padding: 30px;
+  
+
+}
+
+#emergency img{
+    float: right;
+    margin-right: auto;
+    margin-left: 600px;
+    position: absolute;
+
+
+}
+
+#llamada img, #chat img, #video img, #mensaje img{
+    position: relative;
+}
+#emergency{
+    
+    height: 417px;
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 100%;
+
+}
+
+#cht {
+    background-color: blue;
+    border-radius: 5px;
+    margin: auto;
+    width: 130px;
+   
+}
+
+#call, #vid, #msg{
+    background-color: rgb(124, 180, 233);
+    border-radius: 5px;
+    margin: auto;
+    width: 130px;
+   
+    
+}
+
+#call label, #vid label, #msg label{
+    background-color: rgb(124, 180, 233);
+    color: blue;
+    font-weight: bold;
+}
+
+#cht label{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    
+}
+#call:hover, #vid:hover, #msg:hover{
+
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(234, 234, 238);
+    
+     
+ }
+#cht:hover{
+
+   border: 5px;
+   border-style: solid;
+   border-radius: 15px;
+   border-color: rgb(234, 234, 238);
+   
+    
+}
+
+
+footer h2, footer p{
+    background-color: rgb(205, 209, 209);
+}
+footer div{
+    position: static;
+    background-color:  rgb(205, 209, 209);
+    width: 100%;
+    display: block;
+
+}
+#tab2 td,  #tab2 th{
+    background-color: rgb(205, 209, 209) ;
+    padding: 5px;
+    text-align: justify;
+}
+
+#tab2{
+    background-color: rgb(205, 209, 209) ;
+    margin-left: 700px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 0%;
+    margin-right: auto;
+    padding-bottom: 0px;padding-top: 0px;padding-left: 0px;padding-right: 0px;margin-right: auto;width: 500px;
+}
+
+
+
+
